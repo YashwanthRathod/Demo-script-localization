@@ -12,5 +12,5 @@ Given a demo script document, generate its localized version. The localized vers
 ## Expectations
 1. Develop a pipeline, of your choice (no-LLM vs LLM), for generating a localized version of demo script. The pipeline will be used to generate localized scripts for documents (DOCX files) of varying lengths.
 2. Additionally, wrap the pipeline behind a UI (Streamlit/Gradio) app, that allows one to upload the document and specify the language, and country, to generate the localized demo script and export it to a DOCX format.
-Suggest strategies to evaluate the pipeline for correctness and quality of the localization. Be creative, we expect you to think about what kind of metric would be a close leading indicator of the correctness and quality of localized demo script. Where quality is subjective to our use-case of localizing demo scripts.
-3. A thorough error analysis of the data and pipeline, along with points on how you would go about improving the model further is expected.
+3. Suggest strategies to evaluate the pipeline for correctness and quality of the localization. Be creative, we expect you to think about what kind of metric would be a close leading indicator of the correctness and quality of localized demo script. Where quality is subjective to our use-case of localizing demo scripts.
+4. A thorough error analysis of the data and pipeline, along with points on how you would go about improving the model further is expected.
